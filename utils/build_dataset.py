@@ -30,7 +30,8 @@ def main():
     if not os.path.exists(csv_dir):
         os.mkdir(csv_dir)
 
-    datasets = ['50salads', 'gtea', 'breakfast']
+    # datasets = ['50salads', 'gtea', 'breakfast']
+    datasets = ['gtea']
 
     for dataset in datasets:
         # make directory for saving csv files

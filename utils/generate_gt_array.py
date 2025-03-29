@@ -27,7 +27,8 @@ def get_arguments():
 def main():
     args = get_arguments()
 
-    datasets = ['50salads', 'gtea', 'breakfast']
+    # datasets = ['50salads', 'gtea', 'breakfast']
+    datasets = ['gtea']
 
     for dataset in datasets:
         # make directory for saving ground truth numpy arrays
