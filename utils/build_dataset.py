@@ -31,7 +31,7 @@ def main():
         os.mkdir(csv_dir)
 
     # datasets = ['50salads', 'gtea', 'breakfast']
-    datasets = ['gtea']
+    datasets = ['suturing']
 
     for dataset in datasets:
         # make directory for saving csv files

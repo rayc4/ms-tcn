@@ -25,7 +25,8 @@ class ActionSegmentationDataset(Dataset):
                 csv_dir: the path to the directory where the csv files are saved
         """
 
-        if (dataset != '50salads') and (dataset != 'gtea') and (dataset != 'breakfast'):
+        if (dataset != '50salads') and (dataset != 'gtea') and (dataset != 'breakfast') \
+        and (dataset != 'suturing'):
             print("You have to choose 50saladas, gtea, breakfast as dataset.")
             sys.exit(1)
 

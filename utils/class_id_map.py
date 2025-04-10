@@ -9,7 +9,8 @@ def get_class2id_map(dataset, dataset_dir='./dataset'):
         dataset_dir: the path to the datset directory
     """
 
-    if (dataset == '50salads') or (dataset == 'gtea') or (dataset == 'breakfast'):
+    if (dataset == '50salads') or (dataset == 'gtea') or (dataset == 'breakfast')\
+      or (dataset == 'suturing'):
         with open(os.path.join(dataset_dir, "{}/mapping.txt".format(dataset)), 'r') as f:
             actions = f.read().split('\n')[:-1]
 
