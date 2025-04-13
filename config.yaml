@@ -13,7 +13,7 @@ class_weight: True    # if you use class weight to calculate cross entropy or no
 batch_size: 1
 
 # the number of input feature channels
-in_channel: 12
+in_channel: 174
 
 # thresholds for calcualting F1 Score
 thresholds: [0.1, 0.25, 0.5]
