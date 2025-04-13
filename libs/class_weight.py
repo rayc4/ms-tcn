@@ -17,7 +17,7 @@ def get_class_nums(dataset, split=1, csv_dir='./csv'):
     elif dataset == 'breakfast':
         n_classes = 48
     elif dataset == 'suturing':
-        n_classes = 1
+        n_classes = 11
     else:
         print("You have to select 50salads, gtea or breakfast as dataset.")
         sys.exit(1)
