@@ -31,4 +31,6 @@ def get_id2class_map(dataset, dataset_dir='./dataset'):
 
 
 def get_n_classes(dataset, dataset_dir='./dataset'):
+    if dataset == 'suturing':
+      return 11
     return len(get_class2id_map(dataset, dataset_dir))
