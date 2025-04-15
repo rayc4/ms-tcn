@@ -26,7 +26,7 @@ class ActionSegmentationDataset(Dataset):
         """
 
         if (dataset != '50salads') and (dataset != 'gtea') and (dataset != 'breakfast') \
-        and (dataset != 'suturing'):
+        and not (dataset.startswith('suturing')):
             print("You have to choose 50saladas, gtea, breakfast as dataset.")
             sys.exit(1)
 

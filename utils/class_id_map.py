@@ -10,7 +10,7 @@ def get_class2id_map(dataset, dataset_dir='./dataset'):
     """
 
     if (dataset == '50salads') or (dataset == 'gtea') or (dataset == 'breakfast')\
-      or (dataset == 'suturing'):
+      or (dataset.startswith('suturing')):
         with open(os.path.join(dataset_dir, "{}/mapping.txt".format(dataset)), 'r') as f:
             actions = f.read().split('\n')[:-1]
 
@@ -31,6 +31,6 @@ def get_id2class_map(dataset, dataset_dir='./dataset'):
 
 
 def get_n_classes(dataset, dataset_dir='./dataset'):
-    if dataset == 'suturing':
+    if dataset.startswith('suturing'):
       return 11
     return len(get_class2id_map(dataset, dataset_dir))
