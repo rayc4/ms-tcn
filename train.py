@@ -244,7 +244,7 @@ def main():
     columns = ['epoch', 'lr', 'train_loss']
 
     # if you do validation to determine hyperparams
-    if CONFIG.param_groups:
+    if CONFIG.param_search:
         columns += ['val_loss', 'acc', 'edit']
         columns += ["f1s@{}".format(CONFIG.thresholds[i])
                     for i in range(len(CONFIG.thresholds))]
@@ -252,6 +252,7 @@ def main():
     begin_epoch = 0
     best_loss = 100
     log = pd.DataFrame(columns=columns)
+    print(columns)
     if args.resume:
         if os.path.exists(os.path.join(CONFIG.result_path, 'checkpoint.pth')):
             print('loading the checkpoint...')
@@ -315,7 +316,7 @@ def main():
         # if you do validation to determine hyperparams
         if CONFIG.param_search:
             tmp += [val_loss, acc, edit_score]
-            tmp += [f1s[-1][i] for i in range(len(CONFIG.thresholds))]
+            tmp += [f1s[i] for i in range(len(CONFIG.thresholds))]
 
         tmp_df = pd.Series(tmp, index=log.columns)
 

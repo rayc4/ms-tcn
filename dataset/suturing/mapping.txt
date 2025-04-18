@@ -1,11 +1,11 @@
-0 reaching for instruments
+0 reaching_for_instruments
 1 preparing
-2 reaching for needle with driver
-3 positioning needle
-4 pushing needle through tissue
-5 reaching for needle with forcep
-6 pulling suture with forcep
-7 transferring needle
-8 pulling suture with driver
-9 putting down instruments
-10 instruments idling
+2 reaching_for_needle_with_driver
+3 positioning_needle
+4 pushing_needle_through_tissue
+5 reaching_for_needle_with_forcep
+6 pulling_suture_with_forcep
+7 transferring_needle
+8 pulling_suture_with_driver
+9 putting_down_instruments
+10 instruments_idling
