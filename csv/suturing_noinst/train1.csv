@@ -1,0 +1,9 @@
+feature,label
+/content/ms-tcn/dataset/suturing_noinst/features/1.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/1.npy
+/content/ms-tcn/dataset/suturing_noinst/features/2.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/2.npy
+/content/ms-tcn/dataset/suturing_noinst/features/3.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/3.npy
+/content/ms-tcn/dataset/suturing_noinst/features/4.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/4.npy
+/content/ms-tcn/dataset/suturing_noinst/features/5.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/5.npy
+/content/ms-tcn/dataset/suturing_noinst/features/6.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/6.npy
+/content/ms-tcn/dataset/suturing_noinst/features/7.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/7.npy
+/content/ms-tcn/dataset/suturing_noinst/features/8.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/8.npy

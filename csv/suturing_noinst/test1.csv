@@ -1,0 +1,3 @@
+feature,label
+/content/ms-tcn/dataset/suturing_noinst/features/10.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/10.npy
+/content/ms-tcn/dataset/suturing_noinst/features/11.npy,/content/ms-tcn/dataset/suturing_noinst/gt_arr/11.npy
